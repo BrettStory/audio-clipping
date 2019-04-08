@@ -7,8 +7,8 @@
 namespace brettstory {
 	namespace audio {
 		namespace clipping {
-			double SoftClipArctan::ClipSample(double sample, double boost) {
-				return atan(sample * boost) * (M_2_PI);
+			double SoftClipArctan::ClipSample(double sample) {
+				return atan(sample) * (M_2_PI);
 			}
 		}
 	}

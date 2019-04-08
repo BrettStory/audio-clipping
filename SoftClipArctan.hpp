@@ -3,7 +3,7 @@ namespace brettstory {
 		namespace clipping {
 			class SoftClipArctan {
 			public:
-				static double ClipSample(double sample, double boost);
+				static double ClipSample(double sample);
 
 			private:
 				SoftClipArctan() {
